@@ -1,8 +1,13 @@
 ﻿using System;
 
-public class Genre
+public enum Genre
 {
-	public Genre()
-	{
-	}
+    ACTION,
+    ADVENTURE,
+    RPG,
+    STRATEGY,
+    SPORTS,
+    SIMULATION,
+    PLATFORM,
+    PUZZLE
 }

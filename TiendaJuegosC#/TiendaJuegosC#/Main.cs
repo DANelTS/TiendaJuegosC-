@@ -1,8 +1,11 @@
 ﻿using System;
 
-public class Main
+public class Program
 {
-	public Main()
-	{
-	}
+    public static void Main()
+    {
+        Customer cust = new Customer(1, "test", 150);
+
+        Console.WriteLine(cust.ToString());
+    }
 }
